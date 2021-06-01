@@ -15,7 +15,22 @@ function renderLicenseBadge(licenses) {
 
 //  Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title};
+  
+  return `## Table of Contents
+  Title  
+  Objectives 
+  Technologies  
+  Installation instructions  
+  Usage Instructions  
+  Credits  
+  Licenses  
+  Features  
+  Contribute  
+  Testing Information  
+
+
+
+  # ${data.title};
   ## Objectives and Description:
 
   ${data.objective}
