@@ -100,7 +100,7 @@ function init() {
     inquirer.prompt(questions).then(
         (response) => {
             console.log("Your README is being created")
-            writeToFile("./README.md". generateMarkdown(...response))
+            writeToFile("README.md", generateMarkdown(response))
         }
     )
 }

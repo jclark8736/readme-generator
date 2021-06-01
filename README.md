@@ -1,21 +1,31 @@
-# readme-generator
-
-## project name #${data.title}
-
-
-## user email #${data.email}
-
-## Github Username #${data.github}
-
-*list item one
-*list item two
-
-    -example one
-    -example two
+# ;
+  ## Objectives and Description:
+  
+  
 
 
-[installation link]
+  ##Technologies Used
+  
+  
 
+  ##Installation Instructions
+  
 
-## How to run application
-    -npm i
+  ##Usage Instructions
+  
+
+  ## Credits
+  
+
+  ## Licenses
+  
+
+  ## Features
+  
+
+  ## How to contribute - please contact
+  jc  
+
+  ##Testing
+  
+
