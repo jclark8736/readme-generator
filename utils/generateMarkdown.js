@@ -1,25 +1,25 @@
-// // //else return `![Github License](https...)`
+//else return `![Github License](https...)`
 
-// // // TODO: Create a function that returns a license badge based on which license is passed in
-// // // If there is no license, return an empty string
-// // function renderLicenseBadge(license) {
-// //   if (license !== "None") {
-// //     return
+// TODO: Create a function that returns a license badge based on which license is passed in
+// If there is no license, return an empty string
+function renderLicenseBadge(licenses) {
+  if (licenses !== "None") {
+    return `https://img.shields.io/badge/License-${licenses}-lightblue.svg`
     
-// //   }
-// //   return ""``
-// // }
+  }
+  return ""``
+}
 
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseLink(licenses) {}
 
-// //if else
+//if else
 
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
-// //if else
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
+function renderLicenseSection(licenses) {}
+//if else
 
 
 
@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   ## Objectives and Description:
   ${data.objective}
   ${data.userstory}
-
+  
 
   ##Technologies Used
   ${data.technologies}
@@ -46,15 +46,15 @@ function generateMarkdown(data) {
 
   ## Licenses
   ${data.licenses}
-
+  ${renderLicenseBadge(data.licenses)}
   ## Features
   ${data.images}
 
   ## How to contribute - please contact
-  ${data.name} ${data.email} ${data.github}
+  ${data.name} ${data.email} (https://github.com/${data.github})
 
   ##Testing
-  ${data.testing}
+  [https://github.com/${data.testing}
 
 `
 }
