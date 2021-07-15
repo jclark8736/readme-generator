@@ -15,22 +15,22 @@
   # Readme Generator;
   ## Objectives and Description:
 
-  This application seeks to shorten the process of readme creation by formalizing it.
+  This application seeks to streamline the process of creating readme files for your application
 
-  Users run program, follow prompts, and end up with a working, professional readme file.
+  Users load the program, follow the prompts, and the application creates a readme file for them.
   
 
   ## Technologies Used
 
-  javascript,HTML,node.js,inquirer
+  javascript,node.js
 
   
 
   ## Installation Instructions
-  To install, run npm i from a terminal.
+  To install, run npm i in your main directory.
 
   ## Usage Instructions
-  To run, clone repository, and run node index.js from a terminal.
+  To run, type node index.js in your terminal.
 
   ## Credits
   
@@ -41,12 +41,12 @@
   https://img.shields.io/badge/License-MIT-lightblue.svg
 
   ## Features
-  ![Image](Images/readmegenerator.gif)
+  ![Title] ()
 
   ## How to contribute - please contact
   John Clark bleakistan@gmail.com (https://github.com/jclark8736)
 
   ## Testing
 
-  To test, run npm -test from a terminal.
+  
 
